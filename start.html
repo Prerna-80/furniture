@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height:60px;
+
+        }
+        .nav{
+            display:flex;
+            background-color: rgba(255, 255, 0, 0.795);
+        }
+        ul{
+            display:flex;
+            
+        }
+        li{
+            padding:15px;
+            text-decoration: none;
+            list-style-type: none;
+        }
+        .detail{
+            display:flex;
+        }
+        .home{
+            height:150%;
+            width:150%;
+        }
+        .heading{
+            margin:20px;
+           font-size:14px;
+           justify-content: center;
+        }
+        @media screen and (max-width: 500px) {
+            .detail{
+                display:block;
+               
+            }
+            .heading{
+                font-size:10px;
+            }
+            .nav{
+                display:none;
+            }
+            .part{
+                display:none;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <img src="icon.jfif">
+        <ul>
+            <li>About</li>
+            <li>Product</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="detail">
+        <img class="home" src="img1.jfif">
+        <div class="heading">
+                Product Name.
+                <h1>lorem Ispum</h1>
+                <div class="part"><h2>PRODUCT DETAILS</h2>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                 Ea modi voluptates aliquam! Quidem voluptatum nemo et consequatur
+                expedita, dolor molestias cupiditate officiis cumque, quod quia esse
+                 fugit impedit, facilis quaerat.</div>
+                <h2>PRODUCT PRICE</h2>
+                $100-$120
+                <h2>COLOR AVAILABLE</h2>
+                <input type="color"><br>
+            
+        </div>
+    </div>
+</body>
+</html>
